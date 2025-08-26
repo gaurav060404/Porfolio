@@ -16,7 +16,11 @@ export default defineConfig({
           // Three.js related (if you're using it)
           three: ['three', '@react-three/fiber', '@react-three/drei'],
           // Other utilities
-          utils: ['tailwind-merge', 'cobe', 'maath']
+            // Keep three-related libs in the same chunk to avoid circular imports
+            utils: ['tailwind-merge', 'cobe'],
+            // Put maath with three so both are bundled together and won't create a circular
+            // import between the generated `three` and `utils` chunks.
+            three: ['three', '@react-three/fiber', '@react-three/drei', 'maath']
         }
       }
     },

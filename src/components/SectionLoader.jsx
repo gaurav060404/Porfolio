@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 
-export function SectionLoader() {
+function SectionLoader() {
   return (
     <div className="flex items-center justify-center min-h-[200px] py-20">
       <div className="relative">
