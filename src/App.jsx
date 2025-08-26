@@ -15,7 +15,7 @@ const Footer = lazy(() => import('./sections/Footer'));
 function App() {
   return (
     <div className='container mx-auto max-w-7xl'>
-      <Analytics/>
+      <Analytics/> {/* Enables analytics for vercel */}
       <Navbar/>
       <Hero/>
       

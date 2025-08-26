@@ -20,7 +20,7 @@ function Footer() {
                     <img 
                         src={social.icon} 
                         alt={social.name}  
-                        className="w-5 h-5 brightness-0 invert hover:brightness-100 hover:invert-0 transition-all duration-200"
+                        className="w-5 h-5 brightness-0 invert hover:brightness-100 hover:invert-25 transition-all duration-200"
                     />
                 </a>
             ))}
