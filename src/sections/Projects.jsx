@@ -18,13 +18,19 @@ function Projects() {
             <h1 className="text-heading">
                 My Projects
             </h1>
-            <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent mt-12 h-[1px] w-full" />
+            <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent mt-12 h-[3px] w-full" />
             {myProjects.map((project) => 
                 (<Project key={project.id} {...project} setPreview={setPreview}/>)
             )}
-            { preview && (<motion.img className="fixed top-0 left-0 z-50 object-cover h-56 rounded-lg shadow-lg pointer-events-none w-80" src={preview} alt="" 
-            style={{x:springX , y : springY}}
-            />)}
+            { preview && (
+                // hide preview on small devices, show on sm and up
+                <motion.img
+                    className="hidden sm:block fixed top-0 left-0 z-50 object-cover h-56 rounded-lg shadow-lg pointer-events-none w-80"
+                    src={preview}
+                    alt=""
+                    style={{ x: springX, y: springY }}
+                />
+            )}
         </section>
     )
 }

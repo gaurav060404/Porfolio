@@ -107,7 +107,7 @@ export const mySocials = [
   },
   {
     name: "Linkedin",
-    href: "www.linkedin.com/in/gourav-singh060404",
+    href: "https://www.linkedin.com/in/gourav-singh060404/",
     icon: "/assets/socials/linkedIn.svg",
   },
   {

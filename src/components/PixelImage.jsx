@@ -5,10 +5,8 @@ import { useEffect, useMemo, useState } from "react";
 
 const DEFAULT_GRIDS = {
   "6x4": { rows: 4, cols: 6 },
-  "8x8": { rows: 8, cols: 8 },
+  "4x4": { rows: 4, cols: 4 }, // Smaller grid for better performance
   "8x3": { rows: 3, cols: 8 },
-  "4x6": { rows: 6, cols: 4 },
-  "3x8": { rows: 8, cols: 3 },
 };
 
 export const PixelImage = ({
@@ -16,7 +14,7 @@ export const PixelImage = ({
   grid = "6x4",
   grayscaleAnimation = true,
   pixelFadeInDuration = 1000,
-  maxAnimationDelay = 1200,
+  maxAnimationDelay = 600, // Reduced delay
   colorRevealDelay = 1300,
   customGrid,
   isInView = false,
@@ -46,11 +44,14 @@ export const PixelImage = ({
 
   useEffect(() => {
     if (isInView) {
-      setIsVisible(true);
-      const colorTimeout = setTimeout(() => {
-        setShowColor(true);
-      }, colorRevealDelay);
-      return () => clearTimeout(colorTimeout);
+      const timeout = setTimeout(() => {
+        setIsVisible(true);
+        const colorTimeout = setTimeout(() => {
+          setShowColor(true);
+        }, colorRevealDelay);
+        return () => clearTimeout(colorTimeout);
+      }, 100); // Debounce visibility updates
+      return () => clearTimeout(timeout);
     }
   }, [colorRevealDelay, isInView]);
 
@@ -60,7 +61,6 @@ export const PixelImage = ({
       const row = Math.floor(index / cols);
       const col = index % cols;
 
-      // Add slight overlap to eliminate gaps
       const overlap = 0.1;
       const colWidth = 100 / cols;
       const rowHeight = 100 / rows;
@@ -96,6 +96,7 @@ export const PixelImage = ({
           }}
         >
           <img
+            loading="lazy"
             src={src}
             alt={`Pixel image piece ${index + 1}`}
             className={twMerge(
