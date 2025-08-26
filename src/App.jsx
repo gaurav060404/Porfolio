@@ -2,6 +2,7 @@ import { lazy, Suspense } from 'react';
 import Navbar from './sections/Navbar';
 import Hero from './sections/Hero';
 import SectionLoader from './components/SectionLoader';
+import { Analytics } from "@vercel/analytics/react";
 
 // Lazy load heavy components
 const About = lazy(() => import('./sections/About'));
@@ -14,6 +15,7 @@ const Footer = lazy(() => import('./sections/Footer'));
 function App() {
   return (
     <div className='container mx-auto max-w-7xl'>
+      <Analytics/>
       <Navbar/>
       <Hero/>
       
