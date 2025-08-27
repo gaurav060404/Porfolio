@@ -46,7 +46,7 @@ export const myProjects = [
       "Enabling faster content consumption for users.",
       "Designed a lightweight, user-friendly interface.",
     ],
-    href: "https://github.com/golu7059/news-text-summarization-extension",
+    href: "https://github.com/gaurav060404/news-text-summarization-extension",
     logo: "",
     image: "/assets/projects/summarize.png",
     tags: [
