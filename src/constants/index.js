@@ -10,7 +10,7 @@ export const myProjects = [
       "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
       "Managed complex state dependencies and asynchronous data fetching efficiently with Recoil.",
     ],
-    href: "https://github.com/gaurav060404/Akashic-Record",
+    href: "https://akashicrecords.vercel.app",
     logo: "",
     image: "/assets/projects/akashicrecords.png",
     tags: [
