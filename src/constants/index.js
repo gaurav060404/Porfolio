@@ -10,7 +10,7 @@ export const myProjects = [
       "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
       "Managed complex state dependencies and asynchronous data fetching efficiently with Recoil.",
     ],
-    href: "https://github.com/gaurav060404/Akashic-Record",
+    href: "https://akashicrecords.gouravsingh.dev",
     logo: "",
     image: "/assets/projects/akashicrecords.png",
     tags: [
@@ -107,7 +107,7 @@ export const mySocials = [
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/gourav-singh060404/",
+    href: "https://www.linkedin.com/in/singh-gourav/",
     icon: "/assets/socials/linkedIn.svg",
   },
   {

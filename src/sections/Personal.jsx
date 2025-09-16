@@ -151,7 +151,7 @@ function Personal() {
                                 className="flex flex-col items-center sm:items-start sm:flex-row gap-4"
                             >
                                 <a 
-                                    href="https://www.linkedin.com/in/gourav-singh060404/" 
+                                    href="https://www.linkedin.com/in/singh-gourav/" 
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="group relative inline-flex items-center justify-center gap-2 px-8 py-4 w-40 h-14 border-2 border-white/30 rounded-full text-white font-medium hover:border-transparent transition-all duration-300 hover:scale-105 cursor-pointer overflow-hidden"
