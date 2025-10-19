@@ -40,11 +40,11 @@ export const myProjects = [
     id: 2,
     title: "Short Url",
     description:
-      "Delivers real-time article summarization, allowing users to quickly grasp key points. Designed a userfriendly interface using HTML, CSS, and JavaScript for seamless in-browser integration and enhanced user experience.",
+      "A fast and reliable URL shortening web app that transforms long links into concise, shareable URLs. Built with the MERN stack and a clean, responsive UI using React and TailwindCSS.",
     subDescription: [
-      "Built a Chrome extension that generates real-time news article summaries using the Facebook BART-CNN transformer model.",
-      "Enabling faster content consumption for users.",
-      "Designed a lightweight, user-friendly interface.",
+      "Developed a secure and efficient URL shortening system using Node.js, Express, and MongoDB.",
+      "Implemented an intuitive React frontend with TailwindCSS for a seamless user experience.",
+      "Integrated analytics to track click counts and link usage.",
     ],
     href: "https://shorturl.gouravsingh.dev",
     logo: "",
@@ -69,13 +69,14 @@ export const myProjects = [
         id: 4,
         name: "ExpressJS",
         path: "/assets/logos/expressjs.svg",
-      }
+      },
     ],
   },
   {
     id: 3,
     title: "VidPlay – Video Sharing Platform Backend",
-    description: "A YouTube-like backend API with user authentication, video upload/management, and cloud storage integration.",
+    description:
+      "A YouTube-like backend API with user authentication, video upload/management, and cloud storage integration.",
     subDescription: [
       "Built a scalable backend for a YouTube-like platform with secure JWT authentication, file uploads, and cloud integration.",
       "Designed modular REST APIs for user management, video uploads, and media storage, improving maintainability and scalability.",
@@ -132,7 +133,7 @@ export const myProjects = [
         path: "/assets/logos/css3.svg",
       },
     ],
-  }
+  },
 ];
 
 export const mySocials = [
@@ -163,8 +164,7 @@ export const experiences = [
       "Developed responsive user interfaces with React, reducing frontend bugs and improving user experience.",
       "Integrated AI-powered modules into the existing stack, automating key workflows and improving system efficiency",
       "Contributed to DocDynamo, an AI-powered documentation assistant, by engineering scalable frontend components in React.",
-      "Implemented responsive UI with Tailwind CSS and optimized API integration with Axios, ensuring seamless data flow and faster rendering."
+      "Implemented responsive UI with Tailwind CSS and optimized API integration with Axios, ensuring seamless data flow and faster rendering.",
     ],
   },
 ];
-
