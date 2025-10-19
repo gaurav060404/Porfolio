@@ -10,7 +10,7 @@ export const myProjects = [
       "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
       "Managed complex state dependencies and asynchronous data fetching efficiently with Recoil.",
     ],
-    href: "https://akashicrecords.gouravsingh.dev/",
+    href: "https://akashicrecords.gouravsingh.dev",
     logo: "",
     image: "/assets/projects/akashicrecords.png",
     tags: [
@@ -38,7 +38,7 @@ export const myProjects = [
   },
   {
     id: 2,
-    title: "News Summarization Chrome Extension",
+    title: "Short Url",
     description:
       "Delivers real-time article summarization, allowing users to quickly grasp key points. Designed a userfriendly interface using HTML, CSS, and JavaScript for seamless in-browser integration and enhanced user experience.",
     subDescription: [
@@ -46,25 +46,30 @@ export const myProjects = [
       "Enabling faster content consumption for users.",
       "Designed a lightweight, user-friendly interface.",
     ],
-    href: "https://github.com/gaurav060404/news-text-summarization-extension",
+    href: "https://shorturl.gouravsingh.dev",
     logo: "",
-    image: "/assets/projects/summarize.png",
+    image: "/assets/projects/ShortUrl.png",
     tags: [
       {
         id: 1,
-        name: "JavaScript",
+        name: "React",
         path: "/assets/logos/javascript.svg",
       },
       {
         id: 2,
-        name: "Html",
-        path: "/assets/logos/html5.svg",
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
       },
       {
         id: 3,
-        name: "CSS",
-        path: "/assets/logos/css3.svg",
+        name: "MongoDB",
+        path: "/assets/logos/mongodb.svg",
       },
+      {
+        id: 4,
+        name: "ExpressJS",
+        path: "/assets/logos/expressjs.svg",
+      }
     ],
   },
   {
@@ -97,6 +102,37 @@ export const myProjects = [
       },
     ],
   },
+  {
+    id: 4,
+    title: "News Summarization Chrome Extension",
+    description:
+      "Delivers real-time article summarization, allowing users to quickly grasp key points. Designed a userfriendly interface using HTML, CSS, and JavaScript for seamless in-browser integration and enhanced user experience.",
+    subDescription: [
+      "Built a Chrome extension that generates real-time news article summaries using the Facebook BART-CNN transformer model.",
+      "Enabling faster content consumption for users.",
+      "Designed a lightweight, user-friendly interface.",
+    ],
+    href: "https://github.com/gaurav060404/news-text-summarization-extension",
+    logo: "",
+    image: "/assets/projects/summarize.png",
+    tags: [
+      {
+        id: 1,
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
+      },
+      {
+        id: 2,
+        name: "Html",
+        path: "/assets/logos/html5.svg",
+      },
+      {
+        id: 3,
+        name: "CSS",
+        path: "/assets/logos/css3.svg",
+      },
+    ],
+  }
 ];
 
 export const mySocials = [
