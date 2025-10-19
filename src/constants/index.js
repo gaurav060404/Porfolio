@@ -44,7 +44,6 @@ export const myProjects = [
     subDescription: [
       "Developed a secure and efficient URL shortening system using Node.js, Express, and MongoDB.",
       "Implemented an intuitive React frontend with TailwindCSS for a seamless user experience.",
-      "Integrated analytics to track click counts and link usage.",
     ],
     href: "https://shorturl.gouravsingh.dev",
     logo: "",
