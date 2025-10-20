@@ -52,7 +52,7 @@ export const myProjects = [
       {
         id: 1,
         name: "React",
-        path: "/assets/logos/javascript.svg",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 2,
