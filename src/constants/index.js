@@ -133,6 +133,37 @@ export const myProjects = [
       },
     ],
   },
+  {
+    id: 5,
+    title: "Project Camp – Project Management Backend ",
+    description:
+      "Delivers real-time article summarization, allowing users to quickly grasp key points. Designed a userfriendly interface using HTML, CSS, and JavaScript for seamless in-browser integration and enhanced user experience.",
+    subDescription: [
+      "Designed and developed a scalable backend system for team-based project management with role-based access control.",
+      "Implemented secure authentication using JWT access and refresh tokens, including email verification and password reset workflows.",
+      "Built RESTful APIs for managing projects, tasks, subtasks, and notes with multi-role permissions (Admin, Project Admin, Member).",
+    ],
+    href: "https://github.com/gaurav060404/ProjectCamp",
+    logo: "",
+    image: "/assets/projects/projectcamp.jpg",
+    tags: [
+      {
+        id: 1,
+        name: "NodeJS",
+        path: "/assets/logos/nodejs.svg",
+      },
+      {
+        id: 2,
+        name: "ExpressJS",
+        path: "/assets/logos/expressjs.svg",
+      },
+      {
+        id: 3,
+        name: "MongoDB",
+        path: "/assets/logos/mongodb.svg",
+      },
+    ],
+  },
 ];
 
 export const mySocials = [
@@ -164,6 +195,18 @@ export const experiences = [
       "Integrated AI-powered modules into the existing stack, automating key workflows and improving system efficiency",
       "Contributed to DocDynamo, an AI-powered documentation assistant, by engineering scalable frontend components in React.",
       "Implemented responsive UI with Tailwind CSS and optimized API integration with Axios, ensuring seamless data flow and faster rendering.",
+    ],
+  },
+  {
+    title:
+      "Full Stack Developer Intern, OpenRAG Innovations Pvt. Ltd.",
+    job: "Full Stack Projects",
+    date: "Jan 2026 - Present",
+    contents: [
+      "Working closely with the core engineering team to build, improve, and scale web-based systems supporting product and research initiatives.",
+      "Developing and maintaining full-stack features across frontend and backend with a focus on performance, reliability, and clean system design.",
+      "Collaborating on designing scalable and efficient application architectures and integrating APIs, databases, and frontend components.",
+      "Debugging, optimizing, and improving existing workflows while contributing ideas to enhance overall product quality.",
     ],
   },
 ];
