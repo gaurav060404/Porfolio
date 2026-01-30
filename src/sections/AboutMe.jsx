@@ -30,7 +30,7 @@ export default function AboutMe() {
 
                     <div className="flex gap-4 justify-center md:justify-start pt-4">
                         <a
-                            href="YOUR_GITHUB_LINK"
+                            href="https://github.com/gaurav060404"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="social-icon"
@@ -42,7 +42,7 @@ export default function AboutMe() {
                             <span>GitHub</span>
                         </a>
                         <a
-                            href="YOUR_LINKEDIN_LINK"
+                            href="https://www.linkedin.com/in/singh-gourav/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="social-icon"
