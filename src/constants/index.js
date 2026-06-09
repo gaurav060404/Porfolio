@@ -110,7 +110,6 @@ export const myProjects = [
     subDescription: [
       "Built a Chrome extension that generates real-time news article summaries using the Facebook BART-CNN transformer model.",
       "Enabling faster content consumption for users.",
-      "Designed a lightweight, user-friendly interface.",
     ],
     href: "https://github.com/gaurav060404/news-text-summarization-extension",
     logo: "",
