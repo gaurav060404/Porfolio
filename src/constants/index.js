@@ -7,7 +7,6 @@ export const myProjects = [
     subDescription: [
       "Built a centralized hub for movies, series, and anime with a unified entertainment experience.",
       "Integrated TMDB and Jikan APIs to dynamically fetch trending movies and anime content.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
       "Managed complex state dependencies and asynchronous data fetching efficiently with Recoil.",
     ],
     href: "https://akashicrecords.gouravsingh.dev",
