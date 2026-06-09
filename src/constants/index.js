@@ -137,7 +137,7 @@ export const myProjects = [
     id: 5,
     title: "Project Camp – Project Management Backend ",
     description:
-      "Delivers real-time article summarization, allowing users to quickly grasp key points. Designed a userfriendly interface using HTML, CSS, and JavaScript for seamless in-browser integration and enhanced user experience.",
+      "A robust and scalable RESTful API for collaborative project management built with Express.js and MongoDB",
     subDescription: [
       "Designed and developed a scalable backend system for team-based project management with role-based access control.",
       "Implemented secure authentication using JWT access and refresh tokens, including email verification and password reset workflows.",
@@ -198,8 +198,7 @@ export const experiences = [
     ],
   },
   {
-    title:
-      "Full Stack Developer Intern, OpenRAG Innovations Pvt. Ltd.",
+    title: "Full Stack Developer Intern, OpenRAG Innovations Pvt. Ltd.",
     job: "Full Stack Projects",
     date: "Jan 2026 - Present",
     contents: [
