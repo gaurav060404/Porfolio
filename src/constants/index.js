@@ -77,8 +77,7 @@ export const myProjects = [
       "A YouTube-like backend API with user authentication, video upload/management, and cloud storage integration.",
     subDescription: [
       "Built a scalable backend for a YouTube-like platform with secure JWT authentication, file uploads, and cloud integration.",
-      "Designed modular REST APIs for user management, video uploads, and media storage, improving maintainability and scalability.",
-      "Implemented performance optimizations with MongoDB indexing and aggregation.",
+      "Designed modular REST APIs for user management, video uploads, and media storage, improving maintainability and scalability.And performance optimizations with MongoDB indexing and aggregation.",
     ],
     href: "https://github.com/gaurav060404/VidPlay",
     logo: "",
