@@ -137,8 +137,7 @@ export const myProjects = [
     description:
       "A robust and scalable RESTful API for collaborative project management built with Express.js and MongoDB",
     subDescription: [
-      "Designed and developed a scalable backend system for team-based project management with role-based access control.",
-      "Implemented secure authentication using JWT access and refresh tokens, including email verification and password reset workflows.",
+      "Built a scalable project management backend featuring RBAC, JWT authentication, email verification, and password reset functionality.",
       "Built RESTful APIs for managing projects, tasks, subtasks, and notes with multi-role permissions (Admin, Project Admin, Member).",
     ],
     href: "https://github.com/gaurav060404/ProjectCamp",
